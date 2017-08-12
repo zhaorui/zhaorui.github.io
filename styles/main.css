@@ -1,0 +1,84 @@
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%; /* 10 ÷ 16 ✕ 100% */
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.6rem;
+  margin: 0 0;
+  /* border: 10 solid blue; */
+  border: 10px solid blue;
+}
+
+.navbar li {
+  list-style: none;
+}
+
+.navbar a {
+  margin: 0 20;
+  color: black;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: black;
+  cursor: hand;
+}
+
+.square {
+  /* position: absolute; */
+  float: left;
+  clear: right;
+  background-color: red;
+  height: 100px;
+  width: 100px;
+  /* top: 15px; */
+  /* left: 15px; */
+  margin: 10px;
+  border: 10px solid powderblue;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*************************************
+* Navigation Bar
+**************************************/
+.navbar {
+  min-height: 70px;
+}
+
+.navbar-default {
+  background: #fff;
+  box-shadow: 0 0.125rem 0.125rem 0 rgba(0, 0, 0, .11);
+}
+
+.navbar-default .navbar-brand {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #2b2b2b;
+}
+
+
+@media screen and (max-width:1200){
+  
+}
+
+@media screen and (max-width:640){
+
+}
+
+@media screen and (max-width:320){
+
+}

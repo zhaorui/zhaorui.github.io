@@ -1,0 +1,156 @@
+body {
+  margin: 0px;
+  font-size: 16px;
+}
+
+nav {
+  height: 70px;
+  line-height: 70px;
+  background: #fff;
+  box-shadow: 0 0.125rem 0.125rem 0 rgba(0, 0, 0, .11);
+  position: fixed;
+  width: 100%;
+  top: 0
+}
+
+nav ul {
+  float: right;
+  margin: 0px, 15px;
+  -webkit-margin-before: 0px;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline;
+  margin: 0px 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.2em;
+}
+
+#navbar-brand {
+  float: left;
+  margin-left: 15px;
+  text-decoration: none;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2.0rem;
+  font-weight: bold;
+}
+
+main {
+  margin: 15px;
+  margin-top: 80px;
+}
+
+footer {
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  font-size: 0.9rem;
+  background-color: black;
+  color: white;
+  clear: both;
+}
+
+/*Section layout  */
+section {
+  clear: both;
+}
+section h1 {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1.5rem;
+}
+
+section p {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1.2rem;
+}
+
+#About {
+  background-color: white;
+}
+#myphoto {
+  display:block;
+  float:right;
+  margin-left:20px;
+  border-radius: 0.5em;
+}
+
+#Experience {
+  background-color: rgb(247, 247, 247);
+  clear: both;
+  /* position: relative; */
+  /* top: 10px; */
+}
+
+#Experience p span {
+  font-weight: bold;
+  font-family: Helvetica, sans-serif;
+}
+
+#Lantern {
+  float: left;
+  width: 45%;
+  border: 1px solid black;
+  border-radius: 1em;
+  text-align: center;
+  margin: 10px;
+}
+
+#lantern_img {
+  width: 150px;
+  position: relative;
+  top: 10px;
+}
+
+#LED {
+  float: right;
+  width: 45%;
+  border: 1px solid black;
+  border-radius: 1em;
+  text-align: center;
+  margin: 10px;
+}
+
+#led_img {
+  width: 150px;
+  position: relative;
+  top: 10px;
+}
+
+#Contact {
+  background-color: rgb(247, 247, 247);
+}
+
+#Contact ul {
+  text-align: center;
+}
+
+#Contact ul li {
+  list-style-type: none;
+  display: inline;
+  margin-right: 30px;
+}
+
+#Contact ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.5em;
+}
+
+#Contact ul li a:hover {
+  font-size: 2.0em;
+  color: red;
+}
+
+/*Responsive layout  */
+ @media (max-width: 870px) {
+  nav ul {
+    display: none;
+  }
+} 

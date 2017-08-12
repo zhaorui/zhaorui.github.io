@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="styles/more.css">
+    <!-- <link href="css/style.css" rel="stylesheet" type="text/css"> -->
+    <script type="text/javascript">
+      function Rdo_Click(v) {
+        var blnShow = (v)?false:true;
+        var strArt = document.getElementById("art");
+        strArt.setAttribute("hidden", blnShow);
+        if (blnShow) {
+          strArt.setAttribute("style", "display:none");
+        } else {
+          strArt.setAttribute("style", "display:block");
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <form action="" method="">
+      <!--radio button  -->
+      YES: 
+      <input type="radio" name="yesorno" value="yes"> <br>
+      NO: 
+      <input type="radio" name="yesorno" value="no"> <br>
+
+      <!--checkbox button  -->
+      <input type="checkbox" name="places" value="beijing"> Beijing <br>
+      <input type="checkbox" name="places" value="hangzhou"> HanZhou <br>
+
+      <!--number input box  -->
+      <input type="number" name="number" value="50" min="0" max="100"> <br>
+
+      <input type="date" name="day" value=""> <br>
+      Number of days: <input type="number" name="numdays" value="" min="1" max="10"> <br>
+
+      <!--dropdown list  -->
+      <select>
+        <option value="one">one</option>
+        <option value="two">two</option>
+      </select>
+
+      <!--editable list  -->
+      <ul contenteditable="true">
+        <li>China</li>
+        <li>Japan</li>
+        <li>Russia</li>
+        <li>Canada</li>
+        <li>America</li>
+      </ul>
+
+      <!--spell check  -->
+      <textarea rows="15" cols="20" spellcheck="true">
+      </textarea>
+
+    </form>
+
+    <article i>
+      Book Content <br><br>
+      book description about computer
+    </article>
+    <h5>Comments</h5>
+    <input type="radio" name="rdoHidden" value="1" onclick="Rdo_Click(1)" checked="true">show Comments
+    <input type="radio" name="rdoHidden" value="0" onclick="Rdo_Click(0)"> hide Comments
+    <article id="art" class="p3_8">
+      This is book covers all the detail.
+    </article>
+    <p class="ptest" id="pid">
+      some text
+    </p>
+    <p>
+      some text 2
+    </p>
+  </body>
+</html>

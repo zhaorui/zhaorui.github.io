@@ -1,0 +1,11 @@
+p {
+  color: green;
+}
+
+.ptest {
+  color: yellow !important;
+}
+
+#pid {
+  color: red;
+}
